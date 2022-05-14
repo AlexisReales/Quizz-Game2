@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Quizz PPE Conceitos Gerais</title>
+    <style>
+            *{
+                margin: 0;
+                padding: 0;
+                outline: none;
+                border: none;
+                background: transparent;
+                font-family: sans-serif;
+                color: white;
+            }
+            body{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                background: #202023;
+            }
+            #all-qst{
+                max-width: 700px;
+                background: #2c2c30;
+                border-radius: 5px;
+                margin: 20px auto;
+            }
+            h3{
+                margin: 20px;
+            }
+            .answ{
+                margin: 10px;
+            }
+            .qst{
+                margin: 20px;
+                text-align: left;
+            }
+            label{
+                margin: 0 5px;
+            }
+            button{
+                margin: 10px;
+                width: calc(100% - 20px);
+                padding: 10px 0;
+                border-radius: 3px;
+                background: #242428;
+                cursor: pointer;
+                transition: all .3s;
+                font-size: 16px;
+            }
+            button:hover{
+                background: #252529;
+            }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h2>Conceitos Gerais</h2>
+        <p>Feito por: Alexis Reales</p>
+    </header>
+
+    <div id="all-qst">
+        
+    </div>
+    
+
+    <!-- Regras -->
+    <footer>
+        <h2><<b>Regras do Quizz</b>></h2> <br>
+        <P>Cada alternativa tem apenas uma resposta correta</P>
+        <p>Cada resposta correta irá contar como um ponto</p>
+    </footer>
+    <script src="create.js"></script>
+    <script src="check.js"></script>
+</body>
+</html>
